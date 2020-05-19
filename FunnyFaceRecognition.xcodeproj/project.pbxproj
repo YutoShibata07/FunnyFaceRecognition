@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692512B323C8A558007C061F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 692512B223C8A558007C061F /* GoogleService-Info.plist */; };
+		6930A0F923C0CF2D002E3AC5 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930A0F823C0CF2D002E3AC5 /* QuestionViewController.swift */; };
+		6980FF2E23BF2FE40084A6FF /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980FF2D23BF2FE40084A6FF /* MenuTableViewCell.swift */; };
+		6980FF3123BF327C0084A6FF /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980FF3023BF327C0084A6FF /* MenuModel.swift */; };
+		6980FF3323BF35910084A6FF /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980FF3223BF35910084A6FF /* MenuTableViewController.swift */; };
 		699582BB23B7BB7D009B1133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699582BA23B7BB7D009B1133 /* AppDelegate.swift */; };
 		699582BD23B7BB7D009B1133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699582BC23B7BB7D009B1133 /* SceneDelegate.swift */; };
-		699582BF23B7BB7D009B1133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699582BE23B7BB7D009B1133 /* ViewController.swift */; };
 		699582C223B7BB7D009B1133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699582C023B7BB7D009B1133 /* Main.storyboard */; };
 		699582C423B7BB7E009B1133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699582C323B7BB7E009B1133 /* Assets.xcassets */; };
 		699582C723B7BB7E009B1133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699582C523B7BB7E009B1133 /* LaunchScreen.storyboard */; };
+		699582CF23B7C6B7009B1133 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699582CE23B7C6B7009B1133 /* CameraViewController.swift */; };
+		699582D223B859FE009B1133 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699582D123B859FE009B1133 /* PersonData.swift */; };
+		699582D423B87048009B1133 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699582D323B87048009B1133 /* HomeViewController.swift */; };
+		69C2F09C23BE30E900EFE001 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2F09B23BE30E900EFE001 /* ResultViewController.swift */; };
+		7194EC42507188022E4BE1F0 /* Pods_FunnyFaceRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF960C239AECB26A56A63341 /* Pods_FunnyFaceRecognition.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		699582B723B7BB7D009B1133 /* FunnyFaceRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyFaceRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE38B67C4755ABECEC9519B /* Pods-FunnyFaceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyFaceRecognition.debug.xcconfig"; path = "Target Support Files/Pods-FunnyFaceRecognition/Pods-FunnyFaceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+		692512B223C8A558007C061F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6930A0F823C0CF2D002E3AC5 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		6980FF2D23BF2FE40084A6FF /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		6980FF3023BF327C0084A6FF /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		6980FF3223BF35910084A6FF /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		699582B723B7BB7D009B1133 /* 変顔えぐいて.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "変顔えぐいて.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		699582BA23B7BB7D009B1133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		699582BC23B7BB7D009B1133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		699582BE23B7BB7D009B1133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		699582C123B7BB7D009B1133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		699582C323B7BB7E009B1133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		699582C623B7BB7E009B1133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		699582C823B7BB7E009B1133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699582CE23B7C6B7009B1133 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		699582D123B859FE009B1133 /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		699582D323B87048009B1133 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		69C2F09B23BE30E900EFE001 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		AE7660DBF73106825D0C9643 /* Pods-FunnyFaceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyFaceRecognition.release.xcconfig"; path = "Target Support Files/Pods-FunnyFaceRecognition/Pods-FunnyFaceRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		BF960C239AECB26A56A63341 /* Pods_FunnyFaceRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnyFaceRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +51,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7194EC42507188022E4BE1F0 /* Pods_FunnyFaceRecognition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6980FF2A23BF2F6F0084A6FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6980FF2D23BF2FE40084A6FF /* MenuTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6980FF2F23BF32680084A6FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6980FF3023BF327C0084A6FF /* MenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		699582AE23B7BB7D009B1133 = {
 			isa = PBXGroup;
 			children = (
+				692512B223C8A558007C061F /* GoogleService-Info.plist */,
 				699582B923B7BB7D009B1133 /* FunnyFaceRecognition */,
 				699582B823B7BB7D009B1133 /* Products */,
+				A8657A2E2841E3783E6274DC /* Pods */,
+				DA81913B24651FCB0F12B294 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		699582B823B7BB7D009B1133 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				699582B723B7BB7D009B1133 /* FunnyFaceRecognition.app */,
+				699582B723B7BB7D009B1133 /* 変顔えぐいて.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +96,47 @@
 		699582B923B7BB7D009B1133 /* FunnyFaceRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				6980FF2F23BF32680084A6FF /* Model */,
+				699582D023B859CB009B1133 /* ViewController */,
+				6980FF2A23BF2F6F0084A6FF /* View */,
+				699582D123B859FE009B1133 /* PersonData.swift */,
 				699582BA23B7BB7D009B1133 /* AppDelegate.swift */,
 				699582BC23B7BB7D009B1133 /* SceneDelegate.swift */,
-				699582BE23B7BB7D009B1133 /* ViewController.swift */,
 				699582C023B7BB7D009B1133 /* Main.storyboard */,
 				699582C323B7BB7E009B1133 /* Assets.xcassets */,
 				699582C523B7BB7E009B1133 /* LaunchScreen.storyboard */,
 				699582C823B7BB7E009B1133 /* Info.plist */,
 			);
 			path = FunnyFaceRecognition;
+			sourceTree = "<group>";
+		};
+		699582D023B859CB009B1133 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				699582D323B87048009B1133 /* HomeViewController.swift */,
+				699582CE23B7C6B7009B1133 /* CameraViewController.swift */,
+				69C2F09B23BE30E900EFE001 /* ResultViewController.swift */,
+				6980FF3223BF35910084A6FF /* MenuTableViewController.swift */,
+				6930A0F823C0CF2D002E3AC5 /* QuestionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8657A2E2841E3783E6274DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DE38B67C4755ABECEC9519B /* Pods-FunnyFaceRecognition.debug.xcconfig */,
+				AE7660DBF73106825D0C9643 /* Pods-FunnyFaceRecognition.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA81913B24651FCB0F12B294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF960C239AECB26A56A63341 /* Pods_FunnyFaceRecognition.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 699582CB23B7BB7E009B1133 /* Build configuration list for PBXNativeTarget "FunnyFaceRecognition" */;
 			buildPhases = (
+				A55F705A63D59201F54D7A65 /* [CP] Check Pods Manifest.lock */,
 				699582B323B7BB7D009B1133 /* Sources */,
 				699582B423B7BB7D009B1133 /* Frameworks */,
 				699582B523B7BB7D009B1133 /* Resources */,
+				79A704EFE33AFAAABF162BAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +158,7 @@
 			);
 			name = FunnyFaceRecognition;
 			productName = FunnyFaceRecognition;
-			productReference = 699582B723B7BB7D009B1133 /* FunnyFaceRecognition.app */;
+			productReference = 699582B723B7BB7D009B1133 /* 変顔えぐいて.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				699582C723B7BB7E009B1133 /* LaunchScreen.storyboard in Resources */,
+				692512B323C8A558007C061F /* GoogleService-Info.plist in Resources */,
 				699582C423B7BB7E009B1133 /* Assets.xcassets in Resources */,
 				699582C223B7BB7D009B1133 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +208,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79A704EFE33AFAAABF162BAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunnyFaceRecognition/Pods-FunnyFaceRecognition-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunnyFaceRecognition/Pods-FunnyFaceRecognition-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunnyFaceRecognition/Pods-FunnyFaceRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55F705A63D59201F54D7A65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunnyFaceRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		699582B323B7BB7D009B1133 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699582BF23B7BB7D009B1133 /* ViewController.swift in Sources */,
+				6980FF3123BF327C0084A6FF /* MenuModel.swift in Sources */,
+				699582CF23B7C6B7009B1133 /* CameraViewController.swift in Sources */,
+				69C2F09C23BE30E900EFE001 /* ResultViewController.swift in Sources */,
+				6980FF2E23BF2FE40084A6FF /* MenuTableViewCell.swift in Sources */,
 				699582BB23B7BB7D009B1133 /* AppDelegate.swift in Sources */,
+				6980FF3323BF35910084A6FF /* MenuTableViewController.swift in Sources */,
+				6930A0F923C0CF2D002E3AC5 /* QuestionViewController.swift in Sources */,
+				699582D223B859FE009B1133 /* PersonData.swift in Sources */,
 				699582BD23B7BB7D009B1133 /* SceneDelegate.swift in Sources */,
+				699582D423B87048009B1133 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		699582CC23B7BB7E009B1133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE38B67C4755ABECEC9519B /* Pods-FunnyFaceRecognition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,8 +416,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yuto19990715.FunnyFaceRecognition;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "変顔えぐいて";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +426,7 @@
 		};
 		699582CD23B7BB7E009B1133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7660DBF73106825D0C9643 /* Pods-FunnyFaceRecognition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,8 +436,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yuto19990715.FunnyFaceRecognition;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "変顔えぐいて";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
